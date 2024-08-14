@@ -81,7 +81,7 @@ Feel free to contribute to this project! Open issues and submit pull requests to
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Shubham3871/Automated-Data-Cleaning-Pipeline/blob/main/Licence) file for details.
 
 ---
 
