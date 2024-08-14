@@ -20,7 +20,7 @@ The HTML file creates a web page with the following features:
 - A **funny note** about data security 😂
 
 Here’s how the HTML file looks:
-https://github.com/Shubham3871/Automated-Data-Cleaning-Pipeline/blob/main/image_2024-08-14_100307375.png
+![HTML Interface](https://github.com/Shubham3871/Automated-Data-Cleaning-Pipeline/blob/main/image_2024-08-14_100307375.png)
 
 #### Key Features:
 
