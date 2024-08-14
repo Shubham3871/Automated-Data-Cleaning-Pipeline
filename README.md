@@ -43,7 +43,7 @@ You can find the Python script in the project directory and run it to process up
 
 1. **Clone the Repository**:
     ```bash
-            https://github.com/Shubham3871/Automated-Data-Cleaning-Pipeline.git
+    https://github.com/Shubham3871/Automated-Data-Cleaning-Pipeline.git
     ```
 
 2. **Navigate to the Project Directory**:
@@ -62,7 +62,10 @@ You can find the Python script in the project directory and run it to process up
 
 This project is a fun and educational demonstration of a data cleaning pipeline. It's designed to showcase the basics of data processing and web interface design. 
 
-![Data Science Project](https://via.placeholder.com/600x400.png?text=Data+Science+Project)
+Working : 
+
+(1) It will First Check the Files for errors , then it will clean it within an seconds.
+(2) If the CSV file is already Cleaned , IT will Print ('The file is properly Formatted')
 
 ### Funny Note :)
 
