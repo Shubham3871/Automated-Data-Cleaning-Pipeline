@@ -43,7 +43,7 @@ You can find the Python script in the project directory and run it to process up
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/Shubham3871/Automated-Data-Cleaning-Pipeline.git
+            https://github.com/Shubham3871/Automated-Data-Cleaning-Pipeline.git
     ```
 
 2. **Navigate to the Project Directory**:
