@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Cleaning Pipeline</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, rgba(0, 82, 218, 1), rgba(67, 111, 122, 1), rgba(111, 177, 252, 1)); /* Gradient from #0052DA to #436F7 to #6FB1FC with 55% visibility */
+            color: #c9d1d9; /* GitHub Dark text color */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background: #161b22; /* GitHub Dark container background */
+            padding: 20px;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px; /* Bigger title font size */
+            margin: 20px 0;
+            color: #ffffff; /* White color for better visibility */
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #c9d1d9; /* GitHub Dark heading color */
+        }
+        input[type="file"] {
+            margin-bottom: 20px;
+            color: #c9d1d9;
+        }
+        button {
+            background-color: #238636; /* GitHub green button color */
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2ea043; /* GitHub green button hover color */
+        }
+        .github-link {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .github-link a {
+            color: #58a6ff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .github-link a:hover {
+            text-decoration: underline;
+        }
+        .note {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #8b949e; /* Lighter text color for the note */
+        }
+        .project-info {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #ff7f7f; /* Light red for project info */
+        }
+    </style>
+</head>
+<body>
+    <!-- Big Title -->
+    <h1>Automated Data Cleaning Pipeline</h1>
+
+    <!-- Project Info -->
+    <div class="project-info">
+        <p>This is an Small Scale DataScience Project.</p>
+    </div>
+
+    <div class="container">
+        <h2>Upload CSV File</h2>
+        
+        <form action="/" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".csv" required>
+            <button type="submit">Upload</button>
+        </form>
+
+        <!-- Add your GitHub link below -->
+        <div class="github-link">
+            <p>Check out my <a href="https://github.com/Shubham3871" target="_blank">GitHub Profile</a></p>
+        </div>
+    </div>
+
+    <!-- Note at the bottom -->
+    <div class="note">
+        <p>Your data is safe—because we’re too broke to afford a server! Trust us, we couldn’t store it even if we wanted to. 😅</p>
+    </div>
+</body>
+</html>
